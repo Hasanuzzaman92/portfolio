@@ -15,7 +15,7 @@ h2{
 }
 
 section{
-    display: flex;
+    
 }
 
 .half-width{
@@ -43,12 +43,14 @@ section{
 }
 
 .top-banner{
+    display: flex;
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
     padding: 50px 0 100px;
 }
 
 .dream-section{
+    display: flex;
     padding: 50px 0 100px;
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
@@ -59,4 +61,39 @@ section{
 .big-dream-img{
     border-radius: 50%;
     padding-left: 5%;
+}
+
+.flexible-container{
+    display: flex;
+}
+
+.experience-item{
+    width: 40%;
+    margin: 0 5% 5%;
+    box-shadow: 10px 10px 40px gray;
+    padding: 0 20px;
+    border-radius: 10px;
+}
+
+.experience-item p{
+    text-align: justify;
+}
+.orange-border{
+    border-left: 7px solid orange;
+    
+}
+
+.bule-border{
+    border-left: 7px solid blue;
+}
+
+.experience-section{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+
+footer{
+    text-align: center;
 }
